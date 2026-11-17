@@ -1,0 +1,23 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "services": {},
+    "capabilities": {
+      "dev.ucp.shopping.cart": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/cart/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/cart.json"
+        }
+      ],
+      "dev.ucp.shopping.checkout": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/checkout/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/checkout.json"
+        }
+      ]
+    },
+    "payment_handlers": {}
+  }
+}
